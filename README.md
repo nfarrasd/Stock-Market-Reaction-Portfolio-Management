@@ -20,6 +20,6 @@ The data used in this project is obtained from MySQL Local Database (COVID-19) f
 3.   Based on SARIMA(3,1,1)x(0,1,1,52) model, the BBCA stock price are expected to fluctuate around IDR 7380, with a margin error of ~4.3%.
 4.   Using mCVAR algorithm, it is recommended to all-out invest into BBCA.JK stock market.
 
-**Future Improvement**:
+# Future Improvement
 1.   Compare the current model with GARCH model, as it is a financial data with high volatility. In addition to that, a Deep Learning method will also be done.
 2.   Create a dashboard using Streamlit which consists of the daily data and forecasted values for the next 7 days.
