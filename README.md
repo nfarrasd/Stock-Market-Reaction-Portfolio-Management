@@ -17,7 +17,7 @@ The data used in this project is obtained from MySQL Local Database (COVID-19) f
 1.   In general, we are 95% confidence that all of these data have significant correlation with COVID-19 data. In addition, BBCA and ^JKSE stock market are also correlated with IDR/USD currency exchange, but not with IDR/JPY currency exchange.
 1.   The best models to predict BBCA stock price are: (1) ARIMA(3,1,1), (2) ARIMAX(3,1,1,'IDR/USD'), and (3) SARIMA(1,1,1)x(0,1,1,12).
 2.   Even though ARIMA and ARIMAX model has better AIC and RMSE, not all of their coefficients are statistically significants. In contrast, SARIMA model's coefficients are all statistically significants. In addition, SARIMA model also able to capture the trend of the BBCA stock price trend, unlike the first 2 models.
-3.   Based on SARIMA(3,1,1)x(0,1,1,52) model, the BBCA stock price are expected to fluctuate around IDR 7380, with a margin error of ~4.3%.
+3.   Based on SARIMA(3,1,1)x(0,1,1,52) model, we can see that for the **next 7 days (2022-08-07 - 2022-08-13)**, we can expect that the **BBCA stock market price** will be have a decrement trend from **7600 IDR to 7450 IDR**, and a **margin error of ~6.3%**..
 4.   Using mCVAR algorithm, it is recommended to all-out invest into BBCA.JK stock market.
 
 # Future Improvement
