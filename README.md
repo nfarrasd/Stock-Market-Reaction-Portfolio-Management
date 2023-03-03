@@ -1,6 +1,7 @@
 # Indonesia's Economic Causality & Forecasting
 
-This is an individual side-project made by Moch Nabil Farras Dhiya (me) as a mean to analyze whether there is a relationship between COVID-19, Currency Exchange, and Stock Market, especially in Indonesia. Specifically, it was done to implement my scraping, data analytics, time-series modeling, and Neural Network knowledges using Python and MySQL as the database 
+This is an individual side-project made by Moch Nabil Farras Dhiya (me) as a mean to analyze whether there is a relationship between COVID-19, Currency Exchange, and Stock Market, especially in Indonesia. Specifically, it was done to implement my scraping, data analytics, time-series modeling, and Neural Network knowledges using Python and MySQL as the database
+
 (soon changed to use COVID-19 API because I plan to deploy the data using Streamlit, where I can not possibly do if I host the data on local database).
 
 ## Dataset
