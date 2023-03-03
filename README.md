@@ -1,4 +1,4 @@
-# Stock Market Analysis & Portfolio Management
+# Stock Market Reaction & Portfolio Management
 
 This is an individual side-project made by Moch Nabil Farras Dhiya (me) as a mean to analyze whether there is a relationship between COVID-19, Currency Exchange, and Stock Market, especially in Indonesia. Specifically, it was done to implement my scraping, data analytics, time-series modeling, Neural Network knowledges, as well as portfolio optimization using Python and MySQL as the database.
 
