@@ -2,10 +2,23 @@
 
 This is an individual side-project made by Moch Nabil Farras Dhiya (me) as a mean to analyze whether there is a relationship between COVID-19, Currency Exchange, and Stock Market, especially in Indonesia. Specifically, it was done to implement my scraping, data analytics, time-series modeling, Neural Network knowledges, as well as portfolio optimization using Python and MySQL as the database.
 
+## Business Understanding
+COVID-19 pandemic had impacted many different sectors across the country, including entertainment, supply & chain, etc. Some also argued that the stock price were affected because of it. But, do they really? Regardless to the result, what are the recommended action for stockholder to maximize their portfolio income according to their investing nature?
+
+### Problem
+1. How do stock and currency exchange prices reacted during COVID-19 pandemic, specifically in Indonesia ?
+2. How are the stock prices, especially BBCA.JK, going to be in a 1-week time, starting from March 1, 2003 ?
+3. What are the optimum users portfolio, such that the optimum return can be obtained, given certain risk level ?
+
+### Analytical Approach
+1. Perform hypothesis testing on the datasets with confidence level of 95% to test whether COVID-19 pandemic affect the stock market.
+2. Utilize conventional ARIMA family and Recurrent Neural Network to forecast the stock prices for the next week, and see which model performs the best (have the lowest RMSE).
+3. Use Markowitz Model then plot the Efficient Frontier to build the optimum proportion of portfolio at certain risk level. Another advanced model can also be used.
+
 ## Dataset
 The data used in this project is obtained from MySQL Local Database (COVID-19) from my Automated COVID-19 project and YFinance (Currency & Stock Market Price).
 
-(soon changed to use COVID-19 API because I plan to deploy the data using Streamlit, where I can not possibly do if I host the data on local database).
+(soon changed to COVID-19 API because I plan to deploy the data using Streamlit, where I can not possibly do if I host the data on local database).
 
 ## Steps
 1.   Extracting data from External Sources (Yahoo Finance) and Local DB
