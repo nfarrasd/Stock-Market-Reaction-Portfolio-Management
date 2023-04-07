@@ -2,7 +2,7 @@
 
 This is an individual side-project made by Moch Nabil Farras Dhiya (me) as a mean to analyze whether there is a relationship between COVID-19, Currency Exchange, and Stock Market, especially in Indonesia. Specifically, it was done to implement my scraping, data analytics, time-series modeling, Neural Network knowledges, as well as portfolio optimization using Python and MySQL as the database.
 
-Note: In case you can not see the .ipynb file, please go [here](https://drive.google.com/file/d/1LW9e-3F-OcO-Pnte7MyUbDbzlYh6fzC4/view?usp=sharing).
+**Note**: In case you can not see the .ipynb file, please go [here](https://drive.google.com/file/d/1LW9e-3F-OcO-Pnte7MyUbDbzlYh6fzC4/view?usp=sharing).
 
 ## Business Understanding
 COVID-19 pandemic had impacted many different sectors across the country, including entertainment, supply & chain, etc. Some also argued that the stock price were affected because of it. But, do they really? Regardless to the result, what are the recommended action for stockholder to maximize their portfolio income according to their investing nature?
